@@ -1,9 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="Jere Sher">
     <title>Jere Sher | Welcome</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 <body>
+    <section class="header">
+        <div class="header-container">
+            <image src="background4.jpg" id="header-image"/>
+        </div>
+        
+        <div class="header-container">
+
+            <div id="header-introduction">
+                <h1>
+                    Hi, I'm Jere. Software Engineer and<br>
+                    <div id="typed-strings">
+                        <p>Innately Curious.</p>
+                        <p>Avid Tinkerer.</p>
+                        <p>Occassional Photographer.</p>
+                        <p>Incredibly Driven.</p>
+                        <p>Hopeless Chef.</p>
+                        <p>Somewhat Funny.</p>
+                    </div>
+                    <span id="typed"></span>
+                </h1>
+            </div>
+
+            <nav id="header-navigation">
+                <ul>
+                    <li>Home</li>
+                    <li>My Story</li>
+                    <li>Projects</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="content" id="about">
+        <h1>hi</h1>
+
+    </section>
+
+    <section class="content" id="projects">
+
+    </section>
+
+    <section class="content" id="experience">
+
+    </section>
+
+    <section class="footer">
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script>
+        var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 40,
+        backSpeed: 30,
+        backDelay: 500,
+        startDelay: 800,
+        loop: true,
+        smartBackspace: true
+    });
+    </script>
     
 </body>
 </html>
