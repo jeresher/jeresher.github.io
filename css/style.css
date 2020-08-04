@@ -120,14 +120,21 @@ a {
     min-height: 90vh;
 }
 
+
+
+
 .projects-container {
     display: flex;
 }
 
-.projects-container section {
+.projects-box {
     width: 50vw;
 }
 
-.text-box {
+.projects-box article {
+    padding: 20%;
+}
+
+.text {
     background-color: red;
 }
