@@ -7,6 +7,8 @@ html, body {
     font-family: Roboto-Regular, Arial, Helvetica, sans-serif;
     margin:0;
     padding:0;
+    max-width: 100%;
+    overflow-x:hidden;
 }
 
 h2 {
@@ -15,6 +17,10 @@ h2 {
 
 a {
     color: black;
+}
+
+.selected {
+    text-decoration-style: double;
 }
 
 .main-container {
@@ -46,18 +52,19 @@ a {
     line-height: 1.4;
 }
 
-#main-navigation {
+.navigation {
     position: absolute;
     bottom: 0;
+    right: 0;
     width: 50vw;
 }
 
-#main-navigation ul {
+.navigation ul {
     display: flex;
     justify-content: space-evenly;
 }
 
-#main-navigation li {
+.navigation li {
     list-style-type: none;
     text-decoration: underline;
 }
@@ -95,6 +102,10 @@ a {
 
 
 
+
+
+
+
 .carousel-container {
     width: 100%;
     margin: auto;
@@ -106,4 +117,17 @@ a {
 
 .carousel-slide div {
     min-width: 100vw;
+    min-height: 90vh;
+}
+
+.projects-container {
+    display: flex;
+}
+
+.projects-container section {
+    width: 50vw;
+}
+
+.text-box {
+    background-color: red;
 }
