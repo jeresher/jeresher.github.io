@@ -1,16 +1,16 @@
 @font-face {
     font-family: Roboto-Regular;
-    src: url(../Roboto/Roboto-Regular.ttf);
+    src: url(../assets/Roboto-Regular.ttf);
 }
 
 @font-face {
     font-family: Roboto-Bold;
-    src: url(../Roboto/Roboto-Bold.ttf);
+    src: url(../assets/Roboto-Bold.ttf);
 }
 
 @font-face {
     font-family: Roboto-Light;
-    src: url(../Roboto/Roboto-Light.ttf);
+    src: url(../assets/Roboto-Light.ttf);
 }
 
 html, body {
@@ -286,4 +286,14 @@ html, body {
 
 #iceclimbers ul {
     padding: 3%;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholder img {
+    height: 28%;
 }
