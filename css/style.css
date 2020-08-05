@@ -96,6 +96,18 @@ html, body {
 
 }
 
+.about td {
+    padding-right: 10vw;
+    padding-bottom: 5%;
+}
+
+.about h6 {
+    margin: 0;
+    font-size: .9rem;
+}
+
+
+
 
 
 
