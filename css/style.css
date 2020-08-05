@@ -72,6 +72,30 @@ html, body {
 }
 
 
+.about {
+    display: flex;
+    width: 99vw;
+    margin: 1% auto 0 auto;
+    height: 100vh;
+    background-color: black;
+}
+
+.about div {
+    padding: 10% 0 0 10%;
+    margin-right: 50%;
+    color: white;
+    font-size: 2.7rem;
+}
+
+.about div h1 {
+    margin: 0;
+}
+
+.about div p {
+    font-size: 1.3rem;
+
+}
+
 
 
 
