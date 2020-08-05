@@ -21,12 +21,6 @@ html, body {
     overflow-x:hidden;
 }
 
-/*
-.selected {
-    text-decoration-style: double;
-}
-*/
-
 .main-container {
     display: flex;
     justify-content: center;
@@ -79,95 +73,10 @@ html, body {
 
 
 
-#about {
-    visibility: hidden;
-    display: flex;
-    width: 90%;
-    margin: auto;
-}
-
-.about-container {
-    height: 100vh;
-    width: 50vw;
-    background-color: brown;
-}
-
-#about-text {
-    padding-top: 10vh;
-}
-
-#about-image {
-    background-color: red;
-    padding-top: 10vh;
-    text-align: center;
-}
-
-#personal-image {
-    height: auto;
-    width: 90%;
-}
 
 
 
-
-
-
-
-
-.carousel-container {
-    width: 100%;
-    margin: auto;
-}
-
-.carousel-slide {
-    display: flex;
-}
-
-.projects-container {
-    display: flex;
-    background-color: red;
-    min-width: 100vw;
-    min-height: 60vh;
-}
-
-.projects-container section {
-    border: 1px #ccc solid;
-    flex: 1;
-}
-
-.text {
-    background-color: green;
-    padding: 20% 0 0 30%;
-}
-
-.image {
-    align-self: center;
-    justify-self: center;
-    /* text-align: center; */ 
-    max-height: 80vh;
-    background-color: blue;
-}
-
-.image img {
-    max-height: 80vh;
-}
-
-
-
-/*
-.iceclimbers {
-    background-image: url("../Misc/IceClimbers/Halloween_Blur.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    color: white;
-}
-*/
-
-
-
-
-.container-1 {
+.project-container {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -177,21 +86,25 @@ html, body {
     margin: auto;
 }
 
-.container-1 div {
+.project-container div {
     flex: 0 33.5%;
     padding: 1% 8%;
     margin: .75% 0 0 0;
     height: 80vh;
 }
 
+.project-box a {
+    color: #06c;
+    text-decoration: none;
+}
 
-.box h1 {
+.project-box h1 {
     margin: 0;
     padding: 7% 0 2% 0;
     letter-spacing: .8px;
 }
 
-.box h4 {
+.project-box h4 {
     margin: 0 0 5% 0;
     padding: 0;
     font-family: Roboto-Light;
@@ -199,32 +112,27 @@ html, body {
     letter-spacing: .5px;
 }
 
-.box h6 {
+.project-box h6 {
     font-family: Roboto-Light;
     padding: 0;
     margin: 0;
     font-size: 1.1rem;
 }
 
-.box a {
-    color: #06c;
-    text-decoration: none;
-}
-
-.box ul {
+.project-box ul {
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: center;
 }
 
-.box li {
+.project-box li {
     margin: 0 2%;
     list-style-type: none;
 }
 
 
-.box img {
+.project-box img {
     max-height: 70%;
     max-width: 120%;
 }
@@ -235,18 +143,17 @@ html, body {
 }
 
 .gray2 {
-    background-color: #f1f1f3;
+    background-color: #f0f0f0;
 }
 
 .gray3 {
-    background-color: #f0f0f0;
+    background-color: #f1f1f3;
 }
 
 .gray4 {
     background-color: #fafafa;
 
 }
-
 
 #viewpoint h4 {
     margin: 0 0 3% 0;
@@ -269,7 +176,12 @@ html, body {
     max-height: 60%;
 }
 
-#iceclimbers #iceclimberslogo {
+#iceclimbers h4 {
+    margin: 0;
+    padding: 0;
+}
+
+#iceclimbers img {
     padding: 5% 0 0 0;
     max-width: 70%;
 }
@@ -277,11 +189,6 @@ html, body {
 #iceclimbers video {
     padding: 5% 0 2% 0;
     max-height: 65%;
-}
-
-#iceclimbers h4 {
-    margin: 0;
-    padding: 0;
 }
 
 #iceclimbers ul {
