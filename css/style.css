@@ -72,12 +72,13 @@ html, body {
 }
 
 
+
+
+
 .about-container {
-    display: flex;
     width: 99vw;
     margin: 1% auto 0 auto;
     height: 100vh;
-    /* background-color: black; */
     background-image: linear-gradient(
         270deg, transparent, black 78%
       ), url("../assets/aboutme_background.jpg");
@@ -85,98 +86,22 @@ html, body {
     background-position: center;
     filter: grayscale(100%);
     box-shadow: 0 0 90px 90px black inset;
-    /*background-image: url("../personalimage.jpg"); 
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(100%);
-    box-shadow: 100px 200px 90px 300px black inset; 
-    */
 }
 
-
-.about-text-box {
-    width: 50%;
-}
-
-
-.about-text-box div {
-    padding: 20% 0 0 20%;
-    /*margin-right: 50%;  */
+.about-container div {
+    padding: 10% 0 0 10%;
+    margin-right: 50%;
     color: white;
     font-size: 2.7rem;
 }
 
-.about-text-box div h1 {
+.about-container div h1 {
     margin: 0;
 }
 
-.about-text-box div p {
+.about-container div p {
     font-size: 1.3rem;
-
 }
-
-/*
-.about-text-box td {
-    padding-right: 10vw;
-    padding-bottom: 5%;
-}
-
-.about-text-box h6 {
-    margin: 0;
-    font-size: .9rem;
-}
-*/
-
-.about-image-box {
-    align-self: center;
-}
-
-
-.about-image-box section {
-    /*margin-left: 28%;*/
-    width: 38vw;
-    height: 38vw;
-}
-
-.about-image-box section div {
-    height: 100%;
-    width: 100%;
-    background-image: url("../personalimage5.jpg");
-    background-size: cover;
-    background-position: center;
-    filter: grayscale(30%);
-    box-shadow: 0 0 90px 90px black inset; 
-    border-radius: 40%; 
-}
-
-/*
-.about-image-box section {
-    margin-left: 28%;
-    width: 28vw;
-    height: 42vh;
-}
-
-.about-image-box section div {
-    height: 100%;
-    width: 100%;
-    background-image: url("../personalimage.jpg");
-    background-size: cover;
-    filter: grayscale(50%);
-    box-shadow: 0 0 90px 90px black inset;
-    border-radius: 100%;
-}
-*/
-
-
-/*
-.about-image-box img {
-    margin-left: 28%;
-    width: 28vw;
-    filter: grayscale(100%);
-    box-shadow: inset 0px 0px 40px 40px #DBA632;
-}
-*/
-
 
 
 
