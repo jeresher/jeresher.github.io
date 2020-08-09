@@ -106,9 +106,22 @@ html, body {
 }
 
 
+/*
+.projects-divider {
+    display: flex;
+    width: 99vw;
+    height: 22vh;
+    margin: 1% auto 0 auto;
+    justify-content: center;
+    align-self: center;
+}
 
-
-
+.projects-divider h1 {
+    align-self: center;
+    font-size: 3.2rem;
+    letter-spacing: 1.4px;
+}
+*/
 
 .project-container {
     display: flex;
@@ -186,7 +199,6 @@ html, body {
 
 .gray4 {
     background-color: #fafafa;
-
 }
 
 #viewpoint h4 {
@@ -210,11 +222,6 @@ html, body {
     max-height: 60%;
 }
 
-#iceclimbers h4 {
-    margin: 0;
-    padding: 0;
-}
-
 #iceclimbers img {
     padding: 5% 0 0 0;
     max-width: 70%;
@@ -225,8 +232,37 @@ html, body {
     max-height: 65%;
 }
 
+#iceclimbers h4 {
+    margin: 0;
+    padding: 0;
+}
+
 #iceclimbers ul {
     padding: 3%;
+}
+
+#optionspricing h1 {
+    font-family: Roboto-Bold;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#optionspricing .api {
+    font-family: Roboto-Bold;
+    font-size: 1.2rem;
+    font-weight: 900;
+    color: #e2202d;
+
+}
+
+#optionspricing h4 {
+    margin: 0 0 3% 0;
+}
+
+#optionspricing img {
+    padding: 8% 0 0 0;
+    max-width: 75%;
+
 }
 
 .placeholder {
