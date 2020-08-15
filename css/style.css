@@ -180,13 +180,6 @@ html, body {
     list-style-type: none;
 }
 
-
-.project-box img {
-    max-height: 70%;
-    max-width: 120%;
-}
-
-
 .gray1 {
     background-color: #f2f2f2 ;
 }
@@ -265,7 +258,6 @@ html, body {
 #optionspricing img {
     padding: 7vh 0 0 0;
     max-width: 26vw;
-
 }
 
 .placeholder {
@@ -311,11 +303,78 @@ html, body {
         padding-left: 0;
     }
 
+    /* ABOUT PAGE */
+    .about-container div {
+        margin-top: 10vh;
+        margin-right: 3vw;
+        color: white;
+    }
+
+    .about-container div h1 {
+        font-size: 8vw;
+    }
+    
+    .about-container div p {
+        font-size: 3vw;
+    }
+
+    /* PROJECT PAGE */
     .project-container {
         flex-direction: column;
         align-content: center;
+        justify-content: center;
     }
     .project-container div {
-        width: 80vw;
+    }
+
+    .project-box {
+        min-height: 500px;
+    }
+
+    .project-box h1 {
+        font-size: 5vw;
+    }
+    
+    .project-box h4 {
+        font-size: 2.4vw;
+    }
+    
+    .project-box h6 {
+        font-size: 2.5vw;
+    }
+
+    /* VIEWPOINT SPECIFICS */
+    #viewpoint img {
+        width: 80vw
+    }
+
+    /* OPTIONSPRICING SPECIFICS */
+
+    #optionspricing h1 {
+        font-size: 4.5vw;
+    }
+
+    #optionspricing .api {
+        font-size: 2.5vw;
+    }
+
+    #optionspricing img {
+        min-width: 50vw;
+    }
+
+    /* ICE CLIMBER SPECIFICS */
+    #iceclimbers {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #iceclimbers img {
+        min-width: 45vw;
+    }
+
+    #iceclimbers h6 {
+        white-space: nowrap;
     }
 }
