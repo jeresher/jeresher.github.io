@@ -303,6 +303,14 @@ html, body {
         padding-left: 3vw;
     }
 
+    .navigation {
+        width: 100vw;
+    }
+
+    .navigation ul {
+        padding-left: 0;
+    }
+
     .project-container {
         flex-direction: column;
         align-content: center;
