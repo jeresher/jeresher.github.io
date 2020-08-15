@@ -21,32 +21,33 @@ html, body {
     overflow-x:hidden;
 }
 
+
 .main-container {
     display: flex;
     justify-content: center;
 }
 
-.main-box {
+.image-box, .intro-box {
     height: 100vh;
     width: 50vw;
 }
 
-#main-image {
+.image-box #image {
     height:100%;
     width: 100%;
 }
 
-#main-introduction {
+.intro-box #introduction {
     padding-top: 10vh; 
     padding-left: 60px;
     text-align: left;
     max-width: 600px;
-    font-size: 2.5rem;
+    font-size: 3vw;
     letter-spacing: 2px;
     text-decoration: underline;
 }
 
-#main-introduction h1 {
+.intro-box #introduction h1 {
     line-height: 1.4;
 }
 
@@ -95,12 +96,12 @@ html, body {
 }
 
 .about-container div h1 {
-    font-size: 3.0rem;
+    font-size: 4vw;
     margin: 0;
 }
 
 .about-container div p {
-    font-size: 1.1rem;
+    font-size: 1.3vw;
     line-height: 1.7;
     font-weight: 100;
 }
@@ -127,7 +128,6 @@ html, body {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    font-size: 1.5rem;
     justify-content: space-between;
     width: 99%;
     margin: auto;
@@ -138,6 +138,7 @@ html, body {
     padding: 1% 8%;
     margin: .75% 0 0 0;
     height: 80vh;
+    min-width: 250px;
 }
 
 .project-box a {
@@ -146,24 +147,25 @@ html, body {
 }
 
 .project-box h1 {
+    font-size: 2.8vw;
     margin: 0;
-    padding: 7% 0 2% 0;
+    padding: 4vh 0 1vh 0; 
     letter-spacing: .8px;
 }
 
 .project-box h4 {
-    margin: 0 0 5% 0;
+    margin: 0 0 5vh 0;
     padding: 0;
-    font-family: Roboto-Light;
-    font-size: 1.1rem;
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 1.25vw;
     letter-spacing: .5px;
 }
 
 .project-box h6 {
-    font-family: Roboto-Light;
+    font-family: 'Roboto-Light', sans-serif;
     padding: 0;
     margin: 0;
-    font-size: 1.1rem;
+    font-size: 1.3vw;
 }
 
 .project-box ul {
@@ -210,7 +212,7 @@ html, body {
 }
 
 #viewpoint img {
-    margin-top: 15%;
+    margin-top: 10vh;
     width: 35vw
 }
 
@@ -225,7 +227,7 @@ html, body {
 
 #iceclimbers img {
     padding: 5% 0 0 0;
-    max-width: 70%;
+    max-width: 23vw;
 }
 
 #iceclimbers video {
@@ -244,13 +246,13 @@ html, body {
 
 #optionspricing h1 {
     font-family: Roboto-Bold;
-    font-size: 2rem;
+    font-size: 2.3vw;
     font-weight: 500;
 }
 
 #optionspricing .api {
     font-family: Roboto-Bold;
-    font-size: 1.2rem;
+    font-size: 1.4vw;
     font-weight: 900;
     color: #e2202d;
 
@@ -261,8 +263,8 @@ html, body {
 }
 
 #optionspricing img {
-    padding: 8% 0 0 0;
-    max-width: 75%;
+    padding: 7vh 0 0 0;
+    max-width: 26vw;
 
 }
 
@@ -274,4 +276,38 @@ html, body {
 
 .placeholder img {
     height: 28%;
+}
+
+@media only screen and (max-width: 750px) {
+    body {
+        /* background-color: red; */
+    }
+
+
+    /* HOME PAGE. */
+    .image-box {
+        display: none;
+    }
+
+    .intro-box {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .intro-box #introduction {
+        padding: 0;
+        font-size: 6.1vw;
+        width: 93vw;
+        padding-left: 3vw;
+    }
+
+    .project-container {
+        flex-direction: column;
+        align-content: center;
+    }
+    .project-container div {
+        width: 80vw;
+    }
 }
