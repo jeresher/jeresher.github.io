@@ -270,6 +270,10 @@ html, body {
     height: 28%;
 }
 
+.disabled {
+    color: grey !important;
+}
+
 @media only screen and (max-width: 750px) {
     body {
         /* background-color: red; */
@@ -378,3 +382,4 @@ html, body {
         white-space: nowrap;
     }
 }
+
