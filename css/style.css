@@ -196,8 +196,13 @@ html, body {
     background-color: #fafafa;
 }
 
-#beirutcleanup ul {
-    
+#beirutcleanup video {
+    margin: 9% 0;
+    max-height: 43%;
+}
+
+#beirutcleanup h5 {
+    color: rgba(0, 0, 0, 0.336);
 }
 
 #viewpoint h6 {
