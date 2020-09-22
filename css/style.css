@@ -205,10 +205,6 @@ html, body {
     color: rgba(0, 0, 0, 0.336);
 }
 
-#viewpoint h6 {
-    margin: 0;
-}
-
 #viewpoint img {
     margin-top: 10vh;
     width: 35vw
