@@ -197,12 +197,21 @@ html, body {
 }
 
 #beirutcleanup video {
-    margin: 9% 0;
+    margin-top: 8vh;
     width: 30vw;
 }
 
 #beirutcleanup h5 {
     color: rgba(0, 0, 0, 0.336);
+}
+
+#papertoken h1 {
+    font-family: Roboto-Light
+}
+
+#papertoken img {
+    margin-top: 5vh;
+    width: 23vw;
 }
 
 #viewpoint img {
