@@ -22,7 +22,7 @@ html, body {
 }
 
 
-.main-container {
+.home-container {
     display: flex;
     justify-content: center;
 }
@@ -266,6 +266,10 @@ html, body {
 
 
     /* HOME PAGE. */
+    .home-container {
+        height: 90vh;
+    }
+
     .image-box {
         display: none;
     }
