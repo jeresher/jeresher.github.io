@@ -106,24 +106,6 @@ html, body {
     font-weight: 100;
 }
 
-
-/*
-.projects-divider {
-    display: flex;
-    width: 99vw;
-    height: 22vh;
-    margin: 1% auto 0 auto;
-    justify-content: center;
-    align-self: center;
-}
-
-.projects-divider h1 {
-    align-self: center;
-    font-size: 3.2rem;
-    letter-spacing: 1.4px;
-}
-*/
-
 .project-container {
     display: flex;
     flex-wrap: wrap;
@@ -197,8 +179,9 @@ html, body {
 }
 
 #beirutcleanup video {
-    margin-top: 8vh;
+    margin-top: 10vh;
     width: 30vw;
+
 }
 
 #beirutcleanup h5 {
@@ -210,8 +193,8 @@ html, body {
 }
 
 #papertoken img {
-    margin-top: 5vh;
-    width: 23vw;
+    margin-top: 1vh;
+    width: 25vw;
 }
 
 #viewpoint img {
