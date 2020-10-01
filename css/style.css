@@ -282,10 +282,9 @@ html, body {
     }
 
     .intro-box #introduction {
-        padding: 0;
+        padding: 0 0 25vh 3vw;
         font-size: 6.1vw;
         width: 93vw;
-        padding-left: 3vw;
     }
 
     .navigation {
