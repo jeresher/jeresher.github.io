@@ -186,6 +186,7 @@ html, body {
 #beirutcleanup video {
     margin-top: 10vh;
     width: 30vw;
+    max-width: 60vh; /* For image responsiveness when screen size is shrunken vertically */
 
 }
 
@@ -200,11 +201,13 @@ html, body {
 #papertoken img {
     margin-top: 1vh;
     width: 25vw;
+    max-width: 50vh; /* For image responsiveness when screen size is shrunken vertically */
 }
 
 #viewpoint img {
     margin-top: 10vh;
-    width: 35vw
+    width: 35vw;
+    max-width: 65vh; /* For image responsiveness when screen size is shrunken vertically */
 }
 
 #classconnect img {
@@ -242,7 +245,8 @@ html, body {
 
 #optionspricing img {
     margin: 7vh 0 0 0;
-    max-width: 26vw;
+    width: 26vw;
+    max-width: 50vh; /* For image responsiveness when screen size is shrunken vertically */
 }
 
 .placeholder {
