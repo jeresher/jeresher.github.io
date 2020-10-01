@@ -319,8 +319,8 @@ html, body {
         justify-content: center;
     }
 
-    .project-box {
-        min-height: 350px;
+    .project-container div {
+        height: unset;
     }
 
     .project-box a {
@@ -338,7 +338,7 @@ html, body {
 
     /* BEIRUT CLEANUP SPECIFICS */
     #beirutcleanup video {
-        margin-top: 3vh;
+        margin: 3vh 0;
         min-width: 80vw;
     }
 
