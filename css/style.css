@@ -222,13 +222,8 @@ html, body {
     max-height: 65%;
 }
 
-#iceclimbers h4 {
-    margin: 0;
-    padding: 0;
-}
-
 #iceclimbers ul {
-    padding: 3%;
+    padding: 1%;
 }
 
 #optionspricing h1 {
@@ -246,7 +241,7 @@ html, body {
 }
 
 #optionspricing img {
-    padding: 7vh 0 0 0;
+    margin: 7vh 0 0 0;
     max-width: 26vw;
 }
 
@@ -317,42 +312,39 @@ html, body {
         align-content: center;
         justify-content: center;
     }
-    .project-container div {
-    }
 
     .project-box {
-        min-height: 500px;
+        min-height: 350px;
+    }
+
+    .project-box a {
+        font-size: 13px;
     }
 
     .project-box h1 {
-        font-size: 5vw;
+        font-size: 27px;
     }
     
     .project-box h4 {
-        font-size: 2.4vw;
+        font-size: 13px;
+        padding: 0 5vw;
     }
-    
-    .project-box h6 {
-        font-size: 2.5vw;
+
+    /* BEIRUT CLEANUP SPECIFICS */
+    #beirutcleanup video {
+        margin-top: 3vh;
+        min-width: 80vw;
+    }
+
+    /* PAPER TOKEN SPECIFICS */
+    #papertoken img {
+        min-width: 50vw;
     }
 
     /* VIEWPOINT SPECIFICS */
     #viewpoint img {
-        width: 80vw
-    }
-
-    /* OPTIONSPRICING SPECIFICS */
-
-    #optionspricing h1 {
-        font-size: 4.5vw;
-    }
-
-    #optionspricing .api {
-        font-size: 2.5vw;
-    }
-
-    #optionspricing img {
-        min-width: 50vw;
+        margin-top: 4.5vh;
+        min-width: 80vw
     }
 
     /* ICE CLIMBER SPECIFICS */
@@ -364,11 +356,35 @@ html, body {
     }
 
     #iceclimbers img {
-        min-width: 45vw;
+        min-width: 60vw;
+    }
+
+    #iceclimbers video {
+        margin: 1vh 0;
+        width: 50vw;
     }
 
     #iceclimbers h6 {
         white-space: nowrap;
+    }
+
+    /* OPTIONSPRICING SPECIFICS */
+    #optionspricing h1 {
+        font-size: 25px;
+    }
+
+    #optionspricing .api {
+        font-size: 15px;
+    }
+
+    #optionspricing img {
+        margin-top: 3vh;
+        min-width: 50vw;
+    }
+
+    /* CLASSCONNECT SPECIFICS */
+    #classconnect img {
+        width: 70vw;
     }
 }
 
