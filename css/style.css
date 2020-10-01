@@ -293,8 +293,14 @@ html, body {
     }
 
     /* ABOUT PAGE */
+    .about-container {
+        height: unset;
+        padding: 5vh 10vw;
+    }
+
     .about-container div {
-        margin-right: 3vw;
+        padding: unset;
+        margin-right: 20vw;
         color: white;
     }
 
