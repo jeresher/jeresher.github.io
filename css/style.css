@@ -81,7 +81,7 @@ html, body {
 
 .about-container {
     width: 99vw;
-    margin: 1% auto 0 auto;
+    margin: .75% auto 0 auto;
     height: 100vh;
     background-image: linear-gradient(
         270deg, transparent, black 78%
@@ -93,7 +93,7 @@ html, body {
 }
 
 .about-container div {
-    padding: 12% 0 0 10%;
+    padding: 20vh 0 0 10vw;
     margin-right: 50%;
     color: white;
 }
@@ -212,11 +212,6 @@ html, body {
     max-width: 65vh; /* For image responsiveness when screen size is shrunken vertically */
 }
 
-#classconnect img {
-    margin-top: 6%;
-    max-height: 60%;
-}
-
 #iceclimbers img {
     padding: 5% 0 0 0;
     max-width: 23vw;
@@ -226,10 +221,6 @@ html, body {
     padding: 5% 0 2% 0;
     width: 15vw;
     max-width: 28vh;
-}
-
-#iceclimbers ul {
-    padding: 1%;
 }
 
 #optionspricing h1 {
@@ -253,8 +244,9 @@ html, body {
 }
 
 #classconnect img {
+    margin-top: 6%;
     width: 26vw;
-    max-width: 50vh;
+    max-width: 50vh; /* For image responsiveness when screen size is shrunken vertically */
 }
 
 .placeholder {
@@ -335,8 +327,23 @@ html, body {
 }
 */
 
+@media only screen and (min-width: 750px) and (max-width: 1200px), screen and (max-height: 550px) {
 
-@media only screen and (min-width: 750px) and (max-width: 1200px) {
+    .intro-box #introduction {
+        font-size: 24px;
+    }
+
+    .home-container {
+        height: unset;
+    }
+
+    .about-container {
+        height: unset;
+    }
+
+    .about-container div {
+        padding: 12vh 0 8vh 6vw;
+    }
 
     .about-container div p {
         font-size: 15px;
