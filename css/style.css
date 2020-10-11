@@ -383,6 +383,7 @@ html, body {
     }
 
     .navigation {
+        bottom: 10vh;
         width: 100vw;
     }
 
