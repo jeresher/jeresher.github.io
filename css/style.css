@@ -78,29 +78,6 @@ html, body {
     text-decoration: underline;
 }
 
-/*
-.navigation {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50vw;
-}
-
-.navigation a {
-    color: black;
-}
-
-.navigation ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.navigation li {
-    list-style-type: none;
-    text-decoration: underline;
-}
-*/
-
 /* --------------- */
 /* ABOUT CONTAINER */
 /* --------------- */
@@ -390,7 +367,7 @@ html, body {
 
     /* HOME PAGE. */
     .home-container, .intro-box, .image-box {
-        height: 90vh;
+        height: 87vh;
     }
 
     
@@ -403,7 +380,7 @@ html, body {
     }
 
     .intro-box .introduction {
-        padding: 6vh 0 0 3vw;
+        padding: 15vh 0 0 3vw;
         font-size: 5.5vw;
     }
 
@@ -414,30 +391,6 @@ html, body {
     .intro-box .navigation ul {
         padding-left: 0
     }
-
-    /*
-    .intro-box {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        width: 100%;
-    }
-
-    .intro-box #introduction {
-        padding: 0 0 35vh 3vw;
-        font-size: 5.5vw;
-        width: 93vw;
-    }
-
-    
-    .navigation {
-        width: 100vw;
-    }
-
-    .navigation ul {
-        padding-left: 0;
-    }
-    */
 
     /* ABOUT PAGE */
     .about-container {
