@@ -367,7 +367,7 @@ html, body {
 
     /* HOME PAGE. */
     .home-container, .intro-box, .image-box {
-        height: 87vh;
+        /* height: 87vh; */
         min-height: 400px;
     }
 
