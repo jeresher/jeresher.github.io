@@ -40,7 +40,12 @@ html, body {
     width: 100%;
 }
 
-.intro-box #introduction {
+.intro-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-box .introduction {
     padding-top: 10vh; 
     padding-left: 60px;
     text-align: left;
@@ -48,12 +53,32 @@ html, body {
     font-size: 2.7vw;
     letter-spacing: 2px;
     text-decoration: underline;
+    flex-grow: 2;
 }
 
-.intro-box #introduction h1 {
+.intro-box .introduction h1 {
     line-height: 1.4;
 }
 
+.intro-box .navigation {
+    width: 50vw;
+}
+
+.intro-box .navigation a {
+    color: black
+}
+
+.intro-box .navigation ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.intro-box .navigation li {
+    list-style-type: none;
+    text-decoration: underline;
+}
+
+/*
 .navigation {
     position: absolute;
     bottom: 0;
@@ -74,6 +99,7 @@ html, body {
     list-style-type: none;
     text-decoration: underline;
 }
+*/
 
 /* --------------- */
 /* ABOUT CONTAINER */
@@ -358,17 +384,38 @@ html, body {
     }
 }
 
+
+
 @media only screen and (max-width: 750px) {
 
     /* HOME PAGE. */
-    .home-container {
+    .home-container, .intro-box, .image-box {
         height: 90vh;
     }
 
+    
     .image-box {
         display: none;
     }
 
+    .intro-box {
+        width: 100vw;
+    }
+
+    .intro-box .introduction {
+        padding: 6vh 0 0 3vw;
+        font-size: 5.5vw;
+    }
+
+    .intro-box .navigation {
+        width: 100vw;
+    }
+
+    .intro-box .navigation ul {
+        padding-left: 0
+    }
+
+    /*
     .intro-box {
         display: flex;
         align-items: center;
@@ -382,6 +429,7 @@ html, body {
         width: 93vw;
     }
 
+    
     .navigation {
         width: 100vw;
     }
@@ -389,6 +437,7 @@ html, body {
     .navigation ul {
         padding-left: 0;
     }
+    */
 
     /* ABOUT PAGE */
     .about-container {
@@ -491,4 +540,3 @@ html, body {
         width: 70vw;
     }
 }
-
