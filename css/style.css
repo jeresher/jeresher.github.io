@@ -78,6 +78,12 @@ html, body {
     text-decoration: underline;
 }
 
+#typed {
+  display: block;
+  white-space: normal;
+  word-break: break-word;
+}
+
 /* --------------- */
 /* ABOUT CONTAINER */
 /* --------------- */
